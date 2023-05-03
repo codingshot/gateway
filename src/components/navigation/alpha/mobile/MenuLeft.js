@@ -219,7 +219,7 @@ export function MenuLeft(props) {
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton route="/minorityprogrammers.near/widget/GenaDropMultiListing">
+            <NavigationButton route="/0xprometheus.near/widget/GenaDropMultiListing">
               <Components />
               List
             </NavigationButton>
