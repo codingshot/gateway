@@ -136,7 +136,7 @@ export function DesktopNavigation(props) {
         <NavigationButton route="/jgodwill.near/widget/genadropMinter">
             Create
           </NavigationButton>
-          <NavigationButton route="/jgodwill.near/widget/GenaDropMultiListing">
+          <NavigationButton route="/jgodwill.near/widget/NftListingInput">
             List
           </NavigationButton>
 
