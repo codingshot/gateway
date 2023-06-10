@@ -47,6 +47,17 @@ module.exports = function (env) {
         fallback: {
           crypto: require.resolve("crypto-browserify"),
           stream: require.resolve("stream-browserify"),
+          http: require.resolve("stream-http"),
+          https: require.resolve("https-browserify"),
+          fs: false,
+          path: require.resolve("path-browserify"),
+          zlib: require.resolve("browserify-zlib"),
+        },
+        // Fix for using `yarn link "near-social-vm"`
+        alias: {
+          react: path.resolve(__dirname, "./node_modules/react"),
+          "react-dom": path.resolve(__dirname, "./node_modules/react-dom"),
+          "near-api-js": path.resolve(__dirname, "./node_modules/near-api-js"),
         },
       },
       plugins: [
