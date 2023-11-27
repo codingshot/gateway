@@ -82,3 +82,7 @@ return (
 );
 
 ```
+# Fork the Components
+While the gateway leverages existing components deployed under bos.genadrop.near, you may want to also customize the underlying components with your own brand.
+
+Go to our mono repo to fork and deploy all of our componetns including Mintbase, CPlanet, and GenaDrop Multichain here https://github.com/GenaDrop/genadrop-bos-monorepo
